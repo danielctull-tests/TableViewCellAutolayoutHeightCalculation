@@ -10,7 +10,6 @@
 
 @interface DCTTableViewCell : UITableViewCell
 
-- (void)setUserImage:(UIImage *)image;
 - (void)setName:(NSString *)name;
 - (void)setDate:(NSString *)date;
 - (void)setBody:(NSString *)body;

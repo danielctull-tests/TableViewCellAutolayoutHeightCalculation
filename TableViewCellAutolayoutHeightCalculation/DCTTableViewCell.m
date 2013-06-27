@@ -9,7 +9,6 @@
 #import "DCTTableViewCell.h"
 
 @interface DCTTableViewCell ()
-@property (nonatomic, weak) IBOutlet UIImageView *avatarImageView;
 @property (nonatomic, weak) IBOutlet UILabel *nameLabel;
 @property (nonatomic, weak) IBOutlet UILabel *dateLabel;
 @property (nonatomic, weak) IBOutlet UILabel *bodyLabel;
@@ -19,14 +18,9 @@
 
 - (void)prepareForReuse {
 	[super prepareForReuse];
-	self.avatarImageView.image = nil;
 	self.nameLabel.text = nil;
 	self.dateLabel.text = nil;
 	self.bodyLabel.text = nil;
-}
-
-- (void)setUserImage:(UIImage *)image {
-	self.avatarImageView.image = image;
 }
 
 - (void)setName:(NSString *)name {
