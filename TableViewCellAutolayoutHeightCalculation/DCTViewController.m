@@ -63,7 +63,8 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
 	[self configureCell:self.sizingCell forIndexPath:indexPath];
-	CGSize layoutSize = [self.sizingCell systemLayoutSizeFittingSize:CGSizeMake(tableView.bounds.size.width, CGFLOAT_MAX)];
+	CGSize sizeToFit = CGSizeMake(tableView.bounds.size.width, CGFLOAT_MAX);
+	CGSize layoutSize = [self.sizingCell systemLayoutSizeFittingSize:sizeToFit];
 	return layoutSize.height;
 }
 
