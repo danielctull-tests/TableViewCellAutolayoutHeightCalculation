@@ -16,6 +16,11 @@
 		240A3028177CDDDA00805D13 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 240A3027177CDDDA00805D13 /* Default.png */; };
 		240A302A177CDDDA00805D13 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 240A3029177CDDDA00805D13 /* Default@2x.png */; };
 		240A302C177CDDDA00805D13 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 240A302B177CDDDA00805D13 /* Default-568h@2x.png */; };
+		240A3033177CDDFE00805D13 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240A3032177CDDFE00805D13 /* iPhone.storyboard */; };
+		240A3035177CDE1100805D13 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240A3034177CDE1100805D13 /* iPad.storyboard */; };
+		240A3038177CDEF800805D13 /* DCTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 240A3037177CDEF800805D13 /* DCTTableViewCell.m */; };
+		240A303B177CE16B00805D13 /* DCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 240A303A177CE16B00805D13 /* DCTViewController.m */; };
+		240A303E177CE26500805D13 /* DCTItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 240A303D177CE26500805D13 /* DCTItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,14 @@
 		240A3027177CDDDA00805D13 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		240A3029177CDDDA00805D13 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		240A302B177CDDDA00805D13 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		240A3032177CDDFE00805D13 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		240A3034177CDE1100805D13 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		240A3036177CDEF800805D13 /* DCTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTTableViewCell.h; sourceTree = "<group>"; };
+		240A3037177CDEF800805D13 /* DCTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTTableViewCell.m; sourceTree = "<group>"; };
+		240A3039177CE16B00805D13 /* DCTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTViewController.h; sourceTree = "<group>"; };
+		240A303A177CE16B00805D13 /* DCTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTViewController.m; sourceTree = "<group>"; };
+		240A303C177CE26500805D13 /* DCTItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTItem.h; sourceTree = "<group>"; };
+		240A303D177CE26500805D13 /* DCTItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +94,14 @@
 				240A3024177CDDDA00805D13 /* DCTAppDelegate.h */,
 				240A3025177CDDDA00805D13 /* DCTAppDelegate.m */,
 				240A301C177CDDD900805D13 /* Supporting Files */,
+				240A3032177CDDFE00805D13 /* iPhone.storyboard */,
+				240A3034177CDE1100805D13 /* iPad.storyboard */,
+				240A3036177CDEF800805D13 /* DCTTableViewCell.h */,
+				240A3037177CDEF800805D13 /* DCTTableViewCell.m */,
+				240A3039177CE16B00805D13 /* DCTViewController.h */,
+				240A303A177CE16B00805D13 /* DCTViewController.m */,
+				240A303C177CE26500805D13 /* DCTItem.h */,
+				240A303D177CE26500805D13 /* DCTItem.m */,
 			);
 			path = TableViewCellAutolayoutHeightCalculation;
 			sourceTree = "<group>";
@@ -155,6 +176,8 @@
 				240A3028177CDDDA00805D13 /* Default.png in Resources */,
 				240A302A177CDDDA00805D13 /* Default@2x.png in Resources */,
 				240A302C177CDDDA00805D13 /* Default-568h@2x.png in Resources */,
+				240A3033177CDDFE00805D13 /* iPhone.storyboard in Resources */,
+				240A3035177CDE1100805D13 /* iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +190,9 @@
 			files = (
 				240A3022177CDDDA00805D13 /* main.m in Sources */,
 				240A3026177CDDDA00805D13 /* DCTAppDelegate.m in Sources */,
+				240A3038177CDEF800805D13 /* DCTTableViewCell.m in Sources */,
+				240A303B177CE16B00805D13 /* DCTViewController.m in Sources */,
+				240A303E177CE26500805D13 /* DCTItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +272,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableViewCellAutolayoutHeightCalculation/TableViewCellAutolayoutHeightCalculation-Prefix.pch";
 				INFOPLIST_FILE = "TableViewCellAutolayoutHeightCalculation/TableViewCellAutolayoutHeightCalculation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -257,7 +285,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableViewCellAutolayoutHeightCalculation/TableViewCellAutolayoutHeightCalculation-Prefix.pch";
 				INFOPLIST_FILE = "TableViewCellAutolayoutHeightCalculation/TableViewCellAutolayoutHeightCalculation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
