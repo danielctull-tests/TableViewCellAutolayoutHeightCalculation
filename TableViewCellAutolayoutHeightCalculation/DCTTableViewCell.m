@@ -16,6 +16,16 @@
 
 @implementation DCTTableViewCell
 
+- (CGSize)systemLayoutSizeFittingSize:(CGSize)targetSize {
+
+	CGFloat labelWidth = targetSize.width - 40.0f;
+	self.nameLabel.preferredMaxLayoutWidth = labelWidth;
+	self.dateLabel.preferredMaxLayoutWidth = labelWidth;
+	self.bodyLabel.preferredMaxLayoutWidth = labelWidth;
+	
+	return [super systemLayoutSizeFittingSize:targetSize];
+}
+
 - (void)prepareForReuse {
 	[super prepareForReuse];
 	self.nameLabel.text = nil;
